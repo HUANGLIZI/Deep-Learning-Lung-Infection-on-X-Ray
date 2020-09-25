@@ -18,7 +18,7 @@ ratio_dropout = 0.2
 weight_bk = 0.5
 
 # Directory 
-dir_data_root = "D:/我的学习/作业/2020-新冠肺炎检测研究/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets-master/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets-master/data/"
+dir_data_root = "D:/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets-master/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets-master/data/"
 dir_train_path = dir_data_root + "JSRT"
 dir_test_path = dir_data_root + "JSRT"
 dir_mask_path = ["/SCR/fold1/masks/heart", "/SCR/fold2/masks/heart", 
