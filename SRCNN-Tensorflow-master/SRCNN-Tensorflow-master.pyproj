@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4402dce4-7e56-4844-867d-f1f350ded15d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Compile Include="model.py" />
+    <Compile Include="utils.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="result\bicubic.png" />
+    <Content Include="result\orig.png" />
+    <Content Include="result\srcnn.png" />
+    <Content Include="Test\Set14\baboon.bmp" />
+    <Content Include="Test\Set14\barbara.bmp" />
+    <Content Include="Test\Set14\bridge.bmp" />
+    <Content Include="Test\Set14\coastguard.bmp" />
+    <Content Include="Test\Set14\comic.bmp" />
+    <Content Include="Test\Set14\face.bmp" />
+    <Content Include="Test\Set14\flowers.bmp" />
+    <Content Include="Test\Set14\foreman.bmp" />
+    <Content Include="Test\Set14\lenna.bmp" />
+    <Content Include="Test\Set14\man.bmp" />
+    <Content Include="Test\Set14\monarch.bmp" />
+    <Content Include="Test\Set14\pepper.bmp" />
+    <Content Include="Test\Set14\ppt3.bmp" />
+    <Content Include="Test\Set14\zebra.bmp" />
+    <Content Include="Test\Set5\baby_GT.bmp" />
+    <Content Include="Test\Set5\bird_GT.bmp" />
+    <Content Include="Test\Set5\butterfly_GT.bmp" />
+    <Content Include="Test\Set5\head_GT.bmp" />
+    <Content Include="Test\Set5\woman_GT.bmp" />
+    <Content Include="Train\t1.bmp" />
+    <Content Include="Train\t10.bmp" />
+    <Content Include="Train\t11.bmp" />
+    <Content Include="Train\t12.bmp" />
+    <Content Include="Train\t13.bmp" />
+    <Content Include="Train\t14.bmp" />
+    <Content Include="Train\t15.bmp" />
+    <Content Include="Train\t16.bmp" />
+    <Content Include="Train\t17.bmp" />
+    <Content Include="Train\t18.bmp" />
+    <Content Include="Train\t19.bmp" />
+    <Content Include="Train\t2.bmp" />
+    <Content Include="Train\t20.bmp" />
+    <Content Include="Train\t21.bmp" />
+    <Content Include="Train\t22.bmp" />
+    <Content Include="Train\t23.bmp" />
+    <Content Include="Train\t24.bmp" />
+    <Content Include="Train\t25.bmp" />
+    <Content Include="Train\t26.bmp" />
+    <Content Include="Train\t27.bmp" />
+    <Content Include="Train\t28.bmp" />
+    <Content Include="Train\t29.bmp" />
+    <Content Include="Train\t3.bmp" />
+    <Content Include="Train\t30.bmp" />
+    <Content Include="Train\t31.bmp" />
+    <Content Include="Train\t32.bmp" />
+    <Content Include="Train\t33.bmp" />
+    <Content Include="Train\t34.bmp" />
+    <Content Include="Train\t35.bmp" />
+    <Content Include="Train\t36.bmp" />
+    <Content Include="Train\t37.bmp" />
+    <Content Include="Train\t38.bmp" />
+    <Content Include="Train\t39.bmp" />
+    <Content Include="Train\t4.bmp" />
+    <Content Include="Train\t40.bmp" />
+    <Content Include="Train\t42.bmp" />
+    <Content Include="Train\t43.bmp" />
+    <Content Include="Train\t44.bmp" />
+    <Content Include="Train\t45.bmp" />
+    <Content Include="Train\t46.bmp" />
+    <Content Include="Train\t47.bmp" />
+    <Content Include="Train\t48.bmp" />
+    <Content Include="Train\t49.bmp" />
+    <Content Include="Train\t5.bmp" />
+    <Content Include="Train\t50.bmp" />
+    <Content Include="Train\t51.bmp" />
+    <Content Include="Train\t52.bmp" />
+    <Content Include="Train\t53.bmp" />
+    <Content Include="Train\t54.bmp" />
+    <Content Include="Train\t55.bmp" />
+    <Content Include="Train\t56.bmp" />
+    <Content Include="Train\t57.bmp" />
+    <Content Include="Train\t58.bmp" />
+    <Content Include="Train\t59.bmp" />
+    <Content Include="Train\t6.bmp" />
+    <Content Include="Train\t60.bmp" />
+    <Content Include="Train\t61.bmp" />
+    <Content Include="Train\t62.bmp" />
+    <Content Include="Train\t63.bmp" />
+    <Content Include="Train\t64.bmp" />
+    <Content Include="Train\t65.bmp" />
+    <Content Include="Train\t66.bmp" />
+    <Content Include="Train\t7.bmp" />
+    <Content Include="Train\t8.bmp" />
+    <Content Include="Train\t9.bmp" />
+    <Content Include="Train\tt1.bmp" />
+    <Content Include="Train\tt10.bmp" />
+    <Content Include="Train\tt12.bmp" />
+    <Content Include="Train\tt13.bmp" />
+    <Content Include="Train\tt14.bmp" />
+    <Content Include="Train\tt15.bmp" />
+    <Content Include="Train\tt16.bmp" />
+    <Content Include="Train\tt17.bmp" />
+    <Content Include="Train\tt18.bmp" />
+    <Content Include="Train\tt19.bmp" />
+    <Content Include="Train\tt2.bmp" />
+    <Content Include="Train\tt20.bmp" />
+    <Content Include="Train\tt21.bmp" />
+    <Content Include="Train\tt22.bmp" />
+    <Content Include="Train\tt23.bmp" />
+    <Content Include="Train\tt24.bmp" />
+    <Content Include="Train\tt25.bmp" />
+    <Content Include="Train\tt26.bmp" />
+    <Content Include="Train\tt27.bmp" />
+    <Content Include="Train\tt3.bmp" />
+    <Content Include="Train\tt4.bmp" />
+    <Content Include="Train\tt5.bmp" />
+    <Content Include="Train\tt6.bmp" />
+    <Content Include="Train\tt7.bmp" />
+    <Content Include="Train\tt8.bmp" />
+    <Content Include="Train\tt9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="result" />
+    <Folder Include="Test\" />
+    <Folder Include="Test\Set14" />
+    <Folder Include="Test\Set5" />
+    <Folder Include="Train" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
