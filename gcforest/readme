@@ -1,0 +1,13 @@
+Get the data: The data will be automatically downloaded via 'lib/datasets/mnist.py', you do not need to do it yourself
+First Train the Fine Grained Forest:
+Run python tools/train_fg.py --model models/mnist/gcforest/fg-tree500-depth100-3folds.json --log_dir logs/gcforest/mnist/fg --save_outputs
+This means:
+Train a fine grained model for MNIST dataset,
+Using the structure defined in models/mnist/gcforest/fg-tree500-depth100-3folds.json
+save the log files in logs/gcforest/mnist/fg
+The output for the fine grained scanning predictions is saved in train.data_cache.cache_dir
+Then, train the cascade forest (Note: make sure you run the train_fg.py first)
+run python tools/train_cascade.py --model models/mnist/gcforest/fg-tree500-depth100-3folds-ca.json
+This means:
+Train the fine grained scaning results with cascade structure.
+The cascade model specification is defined in 'models/mnist/gcforest/fg-tree500-depth100-3folds-ca.json'
